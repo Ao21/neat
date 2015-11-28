@@ -24,55 +24,55 @@
         <h3>Basic</h3>
         <section class="page-section zero">
         <code>@include outer-container;</code>
-          <div class="page-section__inner zero__alpha">
+          <div class="page-section-inner zero-alpha">
             <code>@include span-columns(6);</code>
           </div>
-          <div class="page-section__inner zero__beta">
+          <div class="page-section-inner zero-beta">
             <code>@include span-columns(6);<br></code>
           </div>
         </section>
         <h3>Multiple rows</h3>
         <section class="page-section first">
           <code>@include outer-container;</code>
-          <div class="page-section__inner first__alpha">
+          <div class="page-section-inner first-alpha">
             <code>(1)</code>
           </div>
-          <div class="page-section__inner first__beta">
+          <div class="page-section-inner first-beta">
             <code>@include span-columns(11);<br>
             @include omega();</code>
           </div>
-          <div class="page-section__inner first__gamma">
+          <div class="page-section-inner first-gamma">
             <code>@include span-columns(2);</code>
           </div>
-          <div class="page-section__inner first__delta">
+          <div class="page-section-inner first-delta">
             <code>@include span-columns(10);<br>
             @include omega();</code>
           </div>
-          <div class="page-section__inner first__epsilon">
+          <div class="page-section-inner first-epsilon">
             <code>@include span-columns(3);</code>
           </div>
-          <div class="page-section__inner first__zeta">
+          <div class="page-section-inner first-zeta">
             <code>@include span-columns(9);<br>
             @include omega();</code>
           </div>
-          <div class="page-section__inner first__eta">
+          <div class="page-section-inner first-eta">
             <code>@include span-columns(4);</code>
           </div>
-          <div class="page-section__inner first__theta">
+          <div class="page-section-inner first-theta">
             <code>@include span-columns(8);<br>
             @include omega();</code>
           </div>
-          <div class="page-section__inner first__iota">
+          <div class="page-section-inner first-iota">
             <code>@include span-columns(5);</code>
           </div>
-          <div class="page-section__inner first__kappa">
+          <div class="page-section-inner first-kappa">
             <code>@include span-columns(7);<br>
             @include omega();</code>
           </div>
-          <div class="page-section__inner first__lambda">
+          <div class="page-section-inner first-lambda">
             <code>@include span-columns(6);</code>
           </div>
-          <div class="page-section__inner first__mu">
+          <div class="page-section-inner first-mu">
             <code>@include span-columns(6);<br>
             @include omega();</code>
           </div>
@@ -80,15 +80,15 @@
         <h3>Nesting columns</h3>
         <section class="page-section second">
           <code>@include outer-container;</code>
-          <div class="page-section__inner second__alpha">
+          <div class="page-section-inner second-alpha">
             <code>@include span-columns(4);</code>
           </div>
-          <div class="page-section__inner second__beta">
+          <div class="page-section-inner second-beta">
             <code class="block">@include span-columns(8);</code>
-            <aside class="second__beta__alpha">
+            <aside class="second-beta-alpha">
               <code>@include span-columns(4 of 8);</code>
             </aside>
-            <article class="second__beta__beta">
+            <article class="second-beta-beta">
               <code>@include span-columns(4 of 8);</code>
             </article>
           </div>
@@ -96,18 +96,18 @@
         <h3>Table grid</h3>
         <section class="page-section third">
           <code>@include outer-container;</code>
-          <div class="page-section__inner third__dummy">
+          <div class="page-section-inner third-dummy">
             <code>@include fill-parent();<br>
               @include row(table);</code>
           </div>
-          <div class="page-section__inner third__alpha">
-            <aside class="third__alpha__alpha">
+          <div class="page-section-inner third-alpha">
+            <aside class="third-alpha-alpha">
               <code>
                 @include span-columns(4);<br>
                 @include pad();
               </code>
             </aside>
-            <article class="third__alpha__beta">
+            <article class="third-alpha-beta">
               <code>
                 @include span-columns(8);<br>
                 @include reset-display;<br>
@@ -118,7 +118,7 @@
         <h3>Shifting columns</h3>
         <section class="page-section fourth">
           <code>@include outer-container;</code>
-          <div class="page-section__inner fourth__alpha">
+          <div class="page-section-inner fourth-alpha">
             <code>@include span-columns(6);<br>
               @include shift(3);</code>
           </div>
@@ -136,37 +136,37 @@
   }
 </pre>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
             <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
-          <div class="fifth__box page-section__inner">
+          <div class="fifth-box page-section-inner">
              <code>.box</code>
           </div>
         </section>
@@ -176,7 +176,7 @@
   @include outer-container;
   $mobile: new-breakpoint(max-width 500px 4);
 </pre>
-          <div class="page-section__inner sixth__alpha">
+          <div class="page-section-inner sixth-alpha">
 <pre>
   @include span-columns(4);
 
@@ -185,7 +185,7 @@
   }
 </pre>
           </div>
-          <div class="page-section__inner sixth__beta">
+          <div class="page-section-inner sixth-beta">
 <pre>
   @include span-columns(8);
   @include media($mobile) {
