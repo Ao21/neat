@@ -28,7 +28,7 @@
             <code>@include span-columns(6);</code>
           </div>
           <div class="page-section-inner zero-beta">
-            <code>@include span-columns(6);<br></code>
+            <code>@include span-columns(6);</code>
           </div>
         </section>
         <h3>Multiple rows</h3>
@@ -38,43 +38,65 @@
             <code>(1)</code>
           </div>
           <div class="page-section-inner first-beta">
-            <code>@include span-columns(11);<br>
-            @include omega();</code>
+            <code>
+              @include span-columns(11);<br>
+              @include omega();
+            </code>
           </div>
           <div class="page-section-inner first-gamma">
-            <code>@include span-columns(2);</code>
+            <code>
+              @include span-columns(2);
+              </code>
           </div>
           <div class="page-section-inner first-delta">
-            <code>@include span-columns(10);<br>
-            @include omega();</code>
+            <code>
+              @include span-columns(10);<br>
+              @include omega();
+            </code>
           </div>
           <div class="page-section-inner first-epsilon">
-            <code>@include span-columns(3);</code>
+            <code>
+              @include span-columns(3);
+            </code>
           </div>
           <div class="page-section-inner first-zeta">
-            <code>@include span-columns(9);<br>
-            @include omega();</code>
+            <code>
+              @include span-columns(9);<br>
+              @include omega();
+            </code>
           </div>
           <div class="page-section-inner first-eta">
-            <code>@include span-columns(4);</code>
+            <code>
+              @include span-columns(4);
+            </code>
           </div>
           <div class="page-section-inner first-theta">
-            <code>@include span-columns(8);<br>
-            @include omega();</code>
+            <code>
+              @include span-columns(8);<br>
+            @include omega();
+            </code>
           </div>
           <div class="page-section-inner first-iota">
-            <code>@include span-columns(5);</code>
+            <code>
+              @include span-columns(5);
+            </code>
           </div>
           <div class="page-section-inner first-kappa">
-            <code>@include span-columns(7);<br>
-            @include omega();</code>
+            <code>
+              @include span-columns(7);<br>
+              @include omega();
+            </code>
           </div>
           <div class="page-section-inner first-lambda">
-            <code>@include span-columns(6);</code>
+            <code>
+              @include span-columns(6);
+            </code>
           </div>
           <div class="page-section-inner first-mu">
-            <code>@include span-columns(6);<br>
-            @include omega();</code>
+            <code>
+              @include span-columns(6);<br>
+              @include omega();
+            </code>
           </div>
         </section>
         <h3>Nesting columns</h3>
@@ -97,8 +119,10 @@
         <section class="page-section third">
           <code>@include outer-container;</code>
           <div class="page-section-inner third-dummy">
-            <code>@include fill-parent();<br>
-              @include row(table);</code>
+            <code>
+              @include fill-parent();<br>
+              @include row(table);
+            </code>
           </div>
           <div class="page-section-inner third-alpha">
             <aside class="third-alpha-alpha">
@@ -110,7 +134,7 @@
             <article class="third-alpha-beta">
               <code>
                 @include span-columns(8);<br>
-                @include reset-display;<br>
+                @include reset-display;
               </code>
             </article>
           </div>
@@ -119,8 +143,10 @@
         <section class="page-section fourth">
           <code>@include outer-container;</code>
           <div class="page-section-inner fourth-alpha">
-            <code>@include span-columns(6);<br>
-              @include shift(3);</code>
+            <code>
+              @include span-columns(6);<br>
+              @include shift(3);
+            </code>
           </div>
         </section>
         <h3>Automatic rows</h3>

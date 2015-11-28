@@ -28,7 +28,6 @@ $white: #fafafa;
 $lightblue: #d5eefb;
 $blue: #aadbf5;
 $darkblue: #41a8df;
-$darkerblue: #298ec3;
 $darkerblue: #072f44;
 
 // Base
@@ -62,9 +61,8 @@ code {
 }
 
 .welcome-message-title {
-  font-family: "helvetica Neue", "Helvetica", sans-serif;
   font-weight: 200;
-  line-height: $base-line-height;
+  line-height: 1;
 }
 
 // ============================================
@@ -225,7 +223,7 @@ a:visited {
 
 .third-alpha-alpha {
   @include span-columns(4);
-  border-right: 1px solid rgba(255,255,255, 0.5);
+  border-right: 1px solid rgba($white, 0.5);
 }
 
 .third-alpha-beta {
