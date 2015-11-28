@@ -34,8 +34,24 @@ $darkerblue: #072f44;
 // ============================================
 
 body {
+  color: $darkerblue;
   font-family: $helvetica;
+  line-height: $base-line-height;
   margin: 0 0 (1.5rem * 2);
+  text-align: center;
+}
+
+h3 {
+  margin: 1em;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+pre {
+  line-height: 1.6em;
 }
 
 code {
@@ -66,25 +82,6 @@ code {
 }
 
 // ============================================
-
-body {
-  color: $darkerblue;
-  line-height: $base-line-height;
-  text-align: center;
-}
-
-h3 {
-  margin: 1em;
-}
-
-pre {
-  line-height: 1.6em;
-}
-
-a,
-a:visited {
-  color: inherit;
-}
 
 .code {
   @include outer-container();
@@ -260,14 +257,13 @@ a:visited {
 // ===================================
 
 .sixth {
-
-  pre {
-    padding: 10px 0;
-  }
-
   @include media($medium-screen) {
     font-size: 0.9em;
     line-height: 1.5em;
+  }
+
+  pre {
+    padding: 10px 0;
   }
 }
 
